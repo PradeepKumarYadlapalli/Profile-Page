@@ -1,0 +1,104 @@
+:root{
+   --green-clr:#DFFE02;
+   --gray-clr:#898989;
+   --dark-blue-clr:#171C22;
+
+}
+.bg-green{
+    background: var(--green-clr);
+}
+.bg-dark-blue{
+    background: var(--dark-blue-clr);
+}
+.txt-green{
+    color: var(--green-clr);
+}
+.txt-gray{
+   color:var(--gray-clr) ;
+}
+.navbar-logo{
+    width:8.5rem;
+    color: blue;
+}
+.mybtn{
+    border:.1rem solid var(--green-clr) !important;
+    padding: .5rem 1.6rem;
+}
+.mybtn:hover{
+    background: transparent;
+    color:var(--green-clr) !important;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #1ebb40;
+    color: white;
+    padding: 20px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+#about {
+    max-width: 600px;
+}
+
+main {
+    padding: 20px;
+}
+#education{
+    background: rgb(181, 107, 43);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    color:rgb(21, 26, 26);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#skills{
+        background: rgb(214, 16, 16);
+        margin: 10px 0;
+        padding: 15px;
+        border-radius: 5px;
+        color:rgb(32, 32, 158);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#projects{
+    background: rgb(214, 16, 131);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    color:rgb(170, 195, 26);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile-img {
+        margin-bottom: 10px;
+    }
+}
